@@ -54,4 +54,33 @@ print (sum)
 
 # Return: A file containing all the even-numbered lines from the original file. Assume 1-based numbering of lines.
 
-f = open ("/python_village/txt/text1.txt", "r")
+i = 1
+
+f = open ("../python_village/txt/rosalind_ini5.txt", "r")
+
+f2 = open ("../python_village/txt/output1.txt", "w")
+
+f2.write ( "Even-numbered lines from rosalind_ini5.txt:\n" )
+f2.write ( "----------\n" )
+for line in f:
+    if i % 2 == 0:
+        f2.write (line)
+    i += 1
+    
+f.close
+f2.close
+
+###
+# Given: A string s of length at most 10000 letters.
+
+# Return: The number of occurrences of each word in s, where words are separated by spaces. Words are case-sensitive, and the lines in the output can be in any order.
+###
+
+str = "We tried list and we tried dicts also we tried Zen"
+
+for word in str.split(' '):
+    print (word)
+
+for key, value in dict.items():
+    print (key)
+    print (value)
