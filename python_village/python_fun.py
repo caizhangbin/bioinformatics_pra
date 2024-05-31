@@ -1,2 +1,2 @@
-import this
+#import this
 print ("Hello World!")
