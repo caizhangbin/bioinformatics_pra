@@ -40,4 +40,17 @@ print (y)
 
 # Return: The sum of all odd integers from a through b, inclusively.
 ####
+sum = 0
+for x in range(4558 ,9058):
+    if x % 2!= 0:
+        sum = sum + x
+
+print (sum)
+    
+
+
+###
+# Given: A file containing at most 1000 lines.
+
+# Return: A file containing all the even-numbered lines from the original file. Assume 1-based numbering of lines.
 
