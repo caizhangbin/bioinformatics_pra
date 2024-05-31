@@ -54,3 +54,4 @@ print (sum)
 
 # Return: A file containing all the even-numbered lines from the original file. Assume 1-based numbering of lines.
 
+f = open ("/python_village/txt/text1.txt", "r")
