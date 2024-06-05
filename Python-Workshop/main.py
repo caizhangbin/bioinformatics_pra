@@ -1,6 +1,7 @@
 import pandas as pd
 
 df = pd.read_csv("../Python-Workshop/data.csv")
+
 df['class'].unique()
 classes = df['class'].unique()
 
