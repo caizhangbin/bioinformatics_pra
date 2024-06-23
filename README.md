@@ -5,6 +5,6 @@ https://rosalind.info/problems/locations/
 My account: 
 https://rosalind.info/users/caizhangbin/
 
-Machine learning adapited from Compute Ontario Summer School workshop
+Machine Learning adapted from Compute Ontario Summer School workshop
 https://training.computeontario.ca/courses/?redirect=0
 
